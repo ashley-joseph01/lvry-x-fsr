@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Racing+Sans+One&display=swap');
 
 
 
@@ -23,18 +23,19 @@
 }
 
 h1 {
-    /* font-size: 40px; */
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 80px;
     color: #d33a32;
     text-align: center;
 }
 
-/* h2 {
+h2 {
     font-size: 40px;
 }
 
 p {
     font-size: 20px;
-} */
+}
 
 
 body {
