@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-:root {
-    --darkest: #1d1e20;
-    --dark: #636e72;
-    --light: #dfe6e9;
-    --blue: #484b4b;
-    --bluer: #444747;
-}
+
+
 
 * {
    box-sizing: border-box; 
    padding: 0px;
    margin: 0px;
-   color: var(--light);
-   background-color: var(--darkest);
+   color: rgb(226, 231, 232);
+   background-color: #201f23;
 
    font-family: "Oswald", sans-serif;
    font-optical-sizing: auto;
@@ -28,8 +23,18 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 100px;
+    color: #d33a32;
 }
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
 
 body {
     padding: 50px;
@@ -41,9 +46,7 @@ body {
 
 }
 
-hr {
-    color: var(--light);
-}
+
 
 .main {
     width: 100%;
@@ -65,17 +68,18 @@ hr {
     align-items: center;
     padding: 15px;
 
-    background-color: var(--blue);
+    background-color: #24262b;
     border-radius: 2px;
     /* border: solid blue 2px; */
 }
 
 .card h2, .card p, .card img, .card div {
-    background-color: var(--blue);
+    background-color: #24262b;
 
 }
 
 .card div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,12 +87,12 @@ hr {
     margin: 15px;
     padding: 15px;
 
-    border: solid 2px var(--bluer);
-    background-color: var(--bluer);
+    /* border: solid 2px var(--bluer); */
+    background-color: #32353d;
 }
 
 .card div p {
     margin-bottom: 5px;
-    background-color: var(--bluer);
+    background-color: #32353d;
 
 }
