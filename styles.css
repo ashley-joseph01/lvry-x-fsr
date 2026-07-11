@@ -27,6 +27,10 @@
     
 }
 
+h1 {
+    font-size: 50px;
+}
+
 body {
     padding: 50px;
     height: 100vh;
