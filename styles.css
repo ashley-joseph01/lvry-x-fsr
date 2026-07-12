@@ -98,3 +98,22 @@ body {
     background-color: #32353d;
 
 }
+
+.prices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+
+    /* border: solid 5px red; */
+}
+
+.prices p {
+    font-size: 30px;
+    width: 100%;
+    /* border: solid 5px blue; */
+
+
+}
